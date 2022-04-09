@@ -1,0 +1,25 @@
+{
+  "name": "registration-project",
+  "version": "1.0.0",
+  "description": "Learn how authenticate, hash passwords, etc.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "joi": "^17.6.0",
+    "joigoose": "^8.0.2",
+    "mongoose": "^6.2.10"
+  }
+}

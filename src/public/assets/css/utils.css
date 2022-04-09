@@ -1,0 +1,64 @@
+:root {
+  --violet: #8c63d2;
+  --light-violet: #d5b3ff;
+  --blue: #0039d4;
+  --white: #fff;
+  --black: #000;
+  --gray: #8a8c90;
+  --light-gray: #e1e1e1;
+  --transparent: transparent;
+  --font: "Roboto", sans-serif;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.btn-primary {
+  background: var(--violet);
+  color: var(--white);
+  border: none;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 200px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--light-violet);
+  color: var(--violet);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary {
+  background: var(--light-violet);
+  color: var(--violet);
+  border: none;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 200px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: var(--violet);
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
